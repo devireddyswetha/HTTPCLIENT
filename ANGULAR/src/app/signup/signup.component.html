@@ -1,0 +1,10 @@
+<form action="#">
+  {{signUpRetun}}
+  <h1>Signup</h1>
+  User Name : <input type="email"  class="input" [(ngModel)]="name" required name="email"/>
+  Password : <input type="email"  class="input" [(ngModel)]="password" required name="email"/>
+  <input type="submit" class="submit" (click)="signup()" />
+  <a routerLink="/login">Login</a>
+</form>
+
+
